@@ -1,7 +1,6 @@
-#include <algorithm>
 #include <iostream>
-#include <map>
-#include <set>
+#include <unordered_map>
+#include <unordered_set>
 #include <vector>
 
 void solve() {
@@ -9,9 +8,9 @@ void solve() {
     std::cin >> n;
 
     int cnt = 1;
-    std::set<int> set;
-    std::map<int, int> amap;
-    std::map<int, int> bmap;
+    std::unordered_set<int> set;
+    std::unordered_map<int, int> amap;
+    std::unordered_map<int, int> bmap;
     std::vector<int> a(n);
     std::vector<int> b(n);
 
