@@ -15,9 +15,8 @@ void solve() {
 
     // i < j the condition j − aj ≠ i − ai holds
     for (int i = 0; i < n; i++) {
-        std::cout << a[i] << ' ';
+        std::cout << a[i] << " \n"[i == n - 1];
     }
-    std::cout << '\n';
 }
 
 signed main() {
