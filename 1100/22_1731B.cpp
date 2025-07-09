@@ -6,7 +6,7 @@ void solve() {
     int n;
     std::cin >> n;
 
-    int ans = ((((n * (n + 1)) % M * (4 * n - 1) % M) % M) * 337) % M;
+    int ans = (((((n * (n + 1)) % M) * ((4 * n - 1) % M)) % M) * 337) % M;
     std::cout << ans << '\n';
 }
 
